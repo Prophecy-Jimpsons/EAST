@@ -1,0 +1,23 @@
+[
+  {
+    "prompt": "def sort_array(arr):",
+    "generation_time": 1.8407957553863525,
+    "memory_usage": 0.916605952,
+    "output_length": 229,
+    "generated_text": "def sort_array(arr): can\u00e7EEEEFFEEEEFFinteriorinteriorinteriorarcharinteriorarcharinteriorarcharinteriorarcharinteriorarcharinteriorarcharinteriorarcharinteriorarcharinteriorarchar \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42 \ud83d\ude42EEEEFFEEEEFFEEEEFF"
+  },
+  {
+    "prompt": "class BinarySearchTree:",
+    "generation_time": 1.6493046283721924,
+    "memory_usage": 0.916605952,
+    "output_length": 381,
+    "generated_text": "class BinarySearchTree: can\u00e7 can\u00e7 can\u00e7 can\u00e7 can\u00e7 can\u00e7 can\u00e7 can\u00e7 can\u00e7 can\u00e7 can\u00e7 can\u00e7 prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00edncia prov\u00ednciaEEEEFF prov\u00ednciaEEEEFFEEEEFF"
+  },
+  {
+    "prompt": "# Function to calculate fibonacci sequence",
+    "generation_time": 1.630124807357788,
+    "memory_usage": 0.916605952,
+    "output_length": 282,
+    "generated_text": "# Function to calculate fibonacci sequenceEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFFEEEEFF"
+  }
+]

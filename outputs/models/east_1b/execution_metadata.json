@@ -1,0 +1,173 @@
+{
+  "start_time": "2025-03-17T07:13:10.203769",
+  "model_name": "deepseek-ai/deepseek-coder-1b-base",
+  "pytorch_version": "2.6.0+cu118",
+  "cuda_available": true,
+  "command_args": {
+    "model_name": "deepseek-ai/deepseek-coder-1b-base",
+    "output_dir": "outputs/models/east_1b",
+    "sparsity_config": "configs/sparsity_config.json",
+    "evaluate": true,
+    "save_model": true,
+    "log_level": "INFO"
+  },
+  "stages": {
+    "model_loading": {
+      "duration_seconds": 2.8869874477386475,
+      "memory_after": {
+        "ram_used_gb": 28.262244352,
+        "ram_total_gb": 34.05012992,
+        "ram_percent": 83.0,
+        "gpu_info": [
+          {
+            "id": 0,
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "vram_allocated_gb": 0.908072448,
+            "vram_total_gb": 8.589410304,
+            "vram_percent": 10.571999891274492
+          }
+        ]
+      }
+    },
+    "dyrelu_phasing": {
+      "duration_seconds": 0.002506732940673828,
+      "memory_after": {
+        "ram_used_gb": 28.276170752,
+        "ram_total_gb": 34.05012992,
+        "ram_percent": 83.0,
+        "gpu_info": [
+          {
+            "id": 0,
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "vram_allocated_gb": 0.908072448,
+            "vram_total_gb": 8.589410304,
+            "vram_percent": 10.571999891274492
+          }
+        ]
+      }
+    },
+    "weight_sharing": {
+      "duration_seconds": 0.036194562911987305,
+      "memory_after": {
+        "ram_used_gb": 28.272377856,
+        "ram_total_gb": 34.05012992,
+        "ram_percent": 83.0,
+        "gpu_info": [
+          {
+            "id": 0,
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "vram_allocated_gb": 0.908084736,
+            "vram_total_gb": 8.589410304,
+            "vram_percent": 10.572142951153635
+          }
+        ]
+      }
+    },
+    "initial_stats": {
+      "duration_seconds": 0.09155583381652832,
+      "zero_params": 193422,
+      "total_params": 739346432,
+      "sparsity": 0.0002616121369204092
+    },
+    "static_pruning": {
+      "duration_seconds": 0.2769815921783447,
+      "sparsity_target": 0.8,
+      "sparsity_achieved": 0.1433852500149754,
+      "zero_params": 106011373,
+      "total_params": 739346432,
+      "memory_after": {
+        "ram_used_gb": 28.420395008,
+        "ram_total_gb": 34.05012992,
+        "ram_percent": 83.5,
+        "gpu_info": [
+          {
+            "id": 0,
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "vram_allocated_gb": 0.908084736,
+            "vram_total_gb": 8.589410304,
+            "vram_percent": 10.572142951153635
+          }
+        ]
+      }
+    },
+    "cyclic_sparsity": {
+      "duration_seconds": 0.09729814529418945,
+      "min_sparsity": 0.8,
+      "max_sparsity": 0.9,
+      "cycle": 5,
+      "sparsity_achieved": 0.1433852500149754,
+      "zero_params": 106011373,
+      "total_params": 739346432,
+      "memory_after": {
+        "ram_used_gb": 28.452958208,
+        "ram_total_gb": 34.05012992,
+        "ram_percent": 83.6,
+        "gpu_info": [
+          {
+            "id": 0,
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "vram_allocated_gb": 0.908084736,
+            "vram_total_gb": 8.589410304,
+            "vram_percent": 10.572142951153635
+          }
+        ]
+      }
+    },
+    "evaluation": {
+      "duration_seconds": 5.12433123588562,
+      "results_file": "outputs/models/east_1b\\evaluation_results.json",
+      "prompts_evaluated": 3,
+      "memory_after": {
+        "ram_used_gb": 28.546342912,
+        "ram_total_gb": 34.05012992,
+        "ram_percent": 83.8,
+        "gpu_info": [
+          {
+            "id": 0,
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "vram_allocated_gb": 0.916604416,
+            "vram_total_gb": 8.589410304,
+            "vram_percent": 10.671331134026124
+          }
+        ]
+      }
+    },
+    "model_saving": {
+      "duration_seconds": 0.9019792079925537,
+      "save_path": "outputs/models/east_1b\\final_model",
+      "memory_after": {
+        "ram_used_gb": 28.944306176,
+        "ram_total_gb": 34.05012992,
+        "ram_percent": 85.0,
+        "gpu_info": [
+          {
+            "id": 0,
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "vram_allocated_gb": 0.916776448,
+            "vram_total_gb": 8.589410304,
+            "vram_percent": 10.673333972334127
+          }
+        ]
+      }
+    },
+    "cleanup": {
+      "duration_seconds": 0.43198108673095703,
+      "memory_after": {
+        "ram_used_gb": 29.52476672,
+        "ram_total_gb": 34.05012992,
+        "ram_percent": 86.7,
+        "gpu_info": [
+          {
+            "id": 0,
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "vram_allocated_gb": 0.34017792,
+            "vram_total_gb": 8.589410304,
+            "vram_percent": 3.9604339292254167
+          }
+        ]
+      }
+    }
+  },
+  "end_time": "2025-03-17T07:13:20.167133",
+  "total_duration_seconds": 9.963371
+}
