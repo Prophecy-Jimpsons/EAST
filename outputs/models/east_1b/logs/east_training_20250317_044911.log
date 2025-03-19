@@ -1,0 +1,64 @@
+2025-03-17 04:49:11,143 [INFO] Logging initialized. Log file: outputs/models/east_1b\logs\east_training_20250317_044911.log
+2025-03-17 04:49:11,143 [INFO] ==================================================
+2025-03-17 04:49:11,143 [INFO] EAST Training Started at 2025-03-17 04:49:11
+2025-03-17 04:49:11,143 [INFO] PyTorch version: 2.6.0+cu118
+2025-03-17 04:49:11,160 [INFO] CUDA available: True
+2025-03-17 04:49:11,161 [INFO] CUDA version: 11.8
+2025-03-17 04:49:11,163 [INFO] GPU: NVIDIA GeForce RTX 3070 Laptop GPU
+2025-03-17 04:49:11,163 [INFO] Initial system state:
+2025-03-17 04:49:11,163 [INFO] Memory stats at initialization:
+2025-03-17 04:49:11,173 [INFO]   GPU 0 utilization: 0.00%
+2025-03-17 04:49:11,173 [INFO] Loading sparsity configuration from configs/sparsity_config.json
+2025-03-17 04:49:11,174 [INFO] Successfully loaded sparsity configuration
+2025-03-17 04:49:11,174 [INFO] Step 1: Loading model and tokenizer
+2025-03-17 04:49:11,174 [INFO] Starting model loading...
+2025-03-17 04:49:11,934 [INFO] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-03-17 04:49:13,567 [INFO] Completed model loading in 2.39 seconds
+2025-03-17 04:49:13,567 [INFO] Memory stats at after model loading:
+2025-03-17 04:49:13,577 [INFO]   GPU 0 utilization: 10.57%
+2025-03-17 04:49:13,577 [INFO] Step 2: Applying DyReLU phasing
+2025-03-17 04:49:13,578 [INFO] Starting DyReLU phasing...
+2025-03-17 04:49:13,579 [INFO] Completed DyReLU phasing in 0.00 seconds
+2025-03-17 04:49:13,579 [INFO] Memory stats at after DyReLU phasing:
+2025-03-17 04:49:13,589 [INFO]   GPU 0 utilization: 10.57%
+2025-03-17 04:49:13,589 [INFO] Step 3: Applying weight sharing
+2025-03-17 04:49:13,590 [INFO] Starting weight sharing...
+2025-03-17 04:49:13,614 [INFO] Completed weight sharing in 0.02 seconds
+2025-03-17 04:49:13,615 [INFO] Memory stats at after weight sharing:
+2025-03-17 04:49:13,632 [INFO]   GPU 0 utilization: 10.57%
+2025-03-17 04:49:13,633 [INFO] Step 4: Gathering initial model statistics
+2025-03-17 04:49:13,633 [INFO] Starting parameter counting...
+2025-03-17 04:49:13,719 [INFO] Completed parameter counting in 0.09 seconds
+2025-03-17 04:49:13,720 [INFO] Step 5: Applying static pruning
+2025-03-17 04:49:13,720 [INFO] Static pruning with sparsity=0.8, chunk_size=1000000
+2025-03-17 04:49:13,720 [INFO] Starting static pruning...
+2025-03-17 04:49:13,852 [INFO] Completed static pruning in 0.13 seconds
+2025-03-17 04:49:13,911 [INFO] Memory stats at after static pruning:
+2025-03-17 04:49:13,921 [INFO]   GPU 0 utilization: 10.57%
+2025-03-17 04:49:13,921 [INFO] Step 6: Applying cyclic sparsity
+2025-03-17 04:49:13,922 [INFO] Cyclic sparsity with min=0.8, max=0.9, cycle=5
+2025-03-17 04:49:13,922 [INFO] Starting cyclic sparsity...
+2025-03-17 04:49:13,951 [INFO] Completed cyclic sparsity in 0.03 seconds
+2025-03-17 04:49:14,012 [INFO] Memory stats at after cyclic sparsity:
+2025-03-17 04:49:14,023 [INFO]   GPU 0 utilization: 10.57%
+2025-03-17 04:49:14,023 [INFO] Step 7: Evaluating model
+2025-03-17 04:49:14,023 [INFO] Starting model evaluation...
+2025-03-17 04:49:18,262 [INFO] Completed model evaluation in 4.24 seconds
+2025-03-17 04:49:18,262 [INFO] Evaluation results saved to outputs/models/east_1b\evaluation_results.json
+2025-03-17 04:49:18,263 [INFO] Memory stats at after evaluation:
+2025-03-17 04:49:18,274 [INFO]   GPU 0 utilization: 10.67%
+2025-03-17 04:49:18,274 [INFO] Step 8: Saving model
+2025-03-17 04:49:18,275 [INFO] Starting model saving...
+2025-03-17 04:49:18,298 [INFO] Completed model saving in 0.02 seconds
+2025-03-17 04:49:18,298 [INFO] Memory stats at after model saving:
+2025-03-17 04:49:18,308 [INFO]   GPU 0 utilization: 10.67%
+2025-03-17 04:49:18,309 [INFO] Step 9: Cleaning up resources
+2025-03-17 04:49:18,309 [INFO] Starting resource cleanup...
+2025-03-17 04:49:18,682 [INFO] Completed resource cleanup in 0.37 seconds
+2025-03-17 04:49:18,682 [INFO] Memory stats at after cleanup:
+2025-03-17 04:49:18,696 [INFO]   GPU 0 utilization: 3.96%
+2025-03-17 04:49:18,698 [INFO] Execution metadata saved to outputs/models/east_1b\execution_metadata.json
+2025-03-17 04:49:18,698 [INFO] 
+Training completed successfully in 7.52 seconds!
+2025-03-17 04:49:18,698 [INFO] See detailed logs at: outputs/models/east_1b\logs\east_training_20250317_044911.log
+2025-03-17 04:49:18,698 [INFO] ==================================================
