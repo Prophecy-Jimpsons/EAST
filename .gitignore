@@ -67,5 +67,6 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
+outputs/
 # Custom for your project
 # Add any project-specific files to ignore
