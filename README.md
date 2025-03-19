@@ -1,14 +1,36 @@
-# EAST DeepSeek Testing
+# Extreme Adaptive Sparse Training (EAST) for Large Language Models
 
-Implementation of Extreme Adaptive Sparse Training (EAST) methodology for DeepSeek models, focusing on memory-efficient training and inference with limited hardware resources.
+Background
 
-## Features
+EAST is a sparse learning technique designed to train deep neural networks at extreme sparsity levels without sacrificing accuracy. This repository aims to push the boundaries of EAST by testing its effectiveness on one of the largest language models to date.
 
-- Static magnitude-based pruning
-- Cyclic sparsity implementation
-- Memory-efficient model loading and inference
-- Performance evaluation with detailed metrics
+Model Details
 
-## Getting Started
+Model architecture: [Different for different tests]
 
-1. Set up the environment:
+Parameter count: 25.3 billion
+
+Dataset: TBA
+
+EAST Implementation
+
+This repository implements the EAST method as described in the paper by Mrare Jimmy. The implementation includes:
+
+Dynamic ReLU phasing (DyReLU)
+
+Weight sharing
+
+Cyclic sparsity
+Goals and Contributions
+
+The primary goal of this repository is to investigate the effectiveness of EAST on large language models. By contributing to this repository, you can help:
+Advance the state-of-the-art in sparse learning for large language models
+Improve the computational efficiency of large language models
+Explore new applications of EAST in natural language processing
+
+Acknowledgments
+(https://arxiv.org/abs/2411.13545)
+
+License
+TBA
+Licenses will be defined later.
