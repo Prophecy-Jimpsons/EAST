@@ -26,8 +26,8 @@ wheels/
 
 # ML specific
 # Uncomment if you don't want to track model files (they can be large)
-# outputs/models/**/*.pt
-# outputs/models/**/*.bin
+outputs/models/**/*.pt
+outputs/models/**/*.bin
 
 # Logs (if you want to exclude them)
 outputs/logs/
